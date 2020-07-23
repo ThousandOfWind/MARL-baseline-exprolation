@@ -132,4 +132,3 @@ class MemoryBuffer:
                 batch[key] = np.concatenate(batch[key])
             batch.update({'shape': (len(idList), batch['reward'].shape[1])})
         return batch
-
